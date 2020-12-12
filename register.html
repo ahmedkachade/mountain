@@ -1,0 +1,160 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> register - إنشاء حساب </title>
+    <link rel="icon" href="img/Lighthouse.jpg">
+    <!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav style="background: #234e7b!important !important;" class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">
+   
+            <img src="img/Lighthouse.jpg" width="30" height="30" class="d-inline-block align-top" style="border-radius: 50%;" > <span style="font-family: 'Oswald', sans-serif;">
+                <div class="text-center rotert">
+                    <a href="https://www.youtube.com/watch?v=MCEYv8h1Soc&list=PLMTdZ61eBnyrPiX-b1MNG-MSPAJ0OgpHA&index=37"> <img src="img/img10.png" width="20" class="rounded" alt="..."></a>
+                    <a href="https://www.youtube.com/watch?v=MCEYv8h1Soc&list=PLMTdZ61eBnyrPiX-b1MNG-MSPAJ0OgpHA&index=37"> <img src="img/img8.png" style="margin-left: 5px;" width="20" class="rounded" alt="..."></a>
+                    <a href="https://www.youtube.com/watch?v=MCEYv8h1Soc&list=PLMTdZ61eBnyrPiX-b1MNG-MSPAJ0OgpHA&index=37"> <img src="img/img9.png" style="margin-left: 5px;" width="20" class="rounded" alt="..."></a>
+                   </div> 
+           &nbsp; &nbsp; &nbsp;     زر مواقع التواصل الخاص بنا
+</span>
+</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div style=" justify-content:flex-end; " class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">تواصل معنا</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    قوائم برمجية
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="https://www.youtube.com/watch?v=jh5wh7eVYUk&list=PLMTdZ61eBnyrPiX-b1MNG-MSPAJ0OgpHA&index=31" >  HTML اش تي ام ال </a>
+                  <a class="dropdown-item" href="https://www.youtube.com/watch?v=jh5wh7eVYUk&list=PLMTdZ61eBnyrPiX-b1MNG-MSPAJ0OgpHA&index=31">CSS سي اس اس </a>
+                  <a class="dropdown-item" href="https://www.youtube.com/watch?v=jh5wh7eVYUk&list=PLMTdZ61eBnyrPiX-b1MNG-MSPAJ0OgpHA&index=31">BOOTSTRAP بوتستراب </a>
+                </div>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">  الصفحة الرئيسية<span class="sr-only">(current)</span></a>
+              </li>
+          </ul>
+        </div>
+      </nav> 
+    
+
+
+
+
+<!-- Default form register -->
+<form style="max-width: 600px; margin: 20px auto;"  class="text-center border border-light p-5" action="#!">
+
+    <p class="h4 mb-4">Sign up - إنشاء حساب</p>
+
+    <div class="form-row mb-4">
+        <div class="col">
+            <!-- First name -->
+            <input type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="First name">
+        </div>
+        <div class="col">
+            <!-- Last name -->
+            <input type="text" id="defaultRegisterFormLastName" class="form-control" placeholder="Last name">
+        </div>
+    </div>
+
+    <!-- E-mail -->
+    <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+    <!-- Password -->
+    <input type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+    <small id="defaultRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
+        At least 8 characters and 1 digit
+    </small>
+
+    <!-- Phone number -->
+    <input type="text" id="defaultRegisterPhonePassword" class="form-control" placeholder="Phone number" aria-describedby="defaultRegisterFormPhoneHelpBlock">
+    <small id="defaultRegisterFormPhoneHelpBlock" class="form-text text-muted mb-4">
+        Optional - for two step authentication
+    </small>
+
+    <!-- Newsletter -->
+    <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="defaultRegisterFormNewsletter">
+        <label class="custom-control-label" for="defaultRegisterFormNewsletter">اوافق على الشروط</label>
+    </div>
+
+    <!-- Sign up button -->
+    <button style="background: #0072ffd1 !important;" class="btn btn-info my-4 btn-block" type="submit">Sign in</button>
+
+    <!-- Social register -->
+    <p>or <a href="login.html">login</a></p>
+
+    <a href="#" class="mx-2" role="button"><i class="fab fa-facebook-f light-blue-text"></i></a>
+    <a href="#" class="mx-2" role="button"><i class="fab fa-twitter light-blue-text"></i></a>
+    <a href="#" class="mx-2" role="button"><i class="fab fa-linkedin-in light-blue-text"></i></a>
+    <a href="#" class="mx-2" role="button"><i class="fab fa-github light-blue-text"></i></a>
+
+    <hr>
+
+    <!-- Terms of service -->
+    <p>By clicking
+        <em>Sign up</em> you agree to our
+        <a href="" target="_blank">terms of service</a>
+
+</form>
+<!-- Default form register -->
+<footer  class="page-footer font-small mdb-color darken-3 pt-4">
+
+    <!-- Footer Elements -->
+    <div class="container">
+  
+      <!--Grid row-->
+      <div class="row d-flex justify-content-center">
+  
+        <!--Grid column-->
+        <div class="col-md-6">
+  
+          <!-- Video -->
+          <div class="embed-responsive embed-responsive-16by9 mb-4">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/K7RhkSS4G7Q"
+              allowfullscreen></iframe>
+          </div>
+  
+        </div>
+        <!--Grid column-->
+  
+      </div>
+      <!--Grid row-->
+  
+    </div>
+    <!-- Footer Elements -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© visit this channel :
+      <a href="https://www.youtube.com/watch?v=LWlKSIp11HY&list=PLMTdZ61eBnyrPiX-b1MNG-MSPAJ0OgpHA&index=34" style="text-decoration:  underline rgb(19, 2, 255);"> Coder Shiyar </a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+
+
+
+    <!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+</body>
+</html>
